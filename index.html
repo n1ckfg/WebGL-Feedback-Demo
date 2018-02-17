@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title id="page_title">My Shader Demo</title>
-  </head>
-  <body>
-  <!--
-  
-  $$$$$$   $$$  $$   $$  $$	    $$$$$$     $$$$$
-  $$   $$  $$$   $$ $$   $$     $$   $$  $$   $$
-  $$$$$$   $$$	 $$$$$   $$     $$$$$$   $$$$$$$
-  $$$ 	   $$$  $$   $$  $$$$$$ $$       $$   $$
-  
-  -->
-	<style>
-  	canvas {position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;}
-	</style>
- 
-    <div style="font-size:4em;font-family:sans-serif;"><div id="startmessage"><em>click anywhere to start<div style="font-size:0.25em;">(and click "Allow" to enable camera)</em></div></div><canvas id='c'></canvas></div>
+<!--
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-    <script src='pxslabs.js'></script>
-    <script src='pxshaders.js'></script>
-    <script src='demo_webgl.js'></script>
-  </body>
+$$$$$$   $$$  $$   $$  $$	    $$$$$$     $$$$$
+$$   $$  $$$   $$ $$   $$     $$   $$  $$   $$
+$$$$$$   $$$	 $$$$$   $$     $$$$$$   $$$$$$$
+$$$ 	   $$$  $$   $$  $$$$$$ $$       $$   $$
+
+-->
+    <head>
+    	<title id="page_title">My Shader Demo</title>
+    	<link type="text/css" rel="stylesheet" href="./css/main.css"/>
+        <script type="text/javascript" src="./js/libraries/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/libraries/pxslabs.js"></script>
+        <script type="text/javascript" src="./js/libraries/pxshaders.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+    </head>
+
+    <body> 
+        <div style="font-size:4em;font-family:sans-serif;">
+        	<div id="startmessage">
+        		<em>click anywhere to start</em>
+    			<div style="font-size:0.25em;">
+    				<em>(and click "Allow" to enable camera)</em>
+    			</div>
+        	</div>
+        	<canvas id='c'></canvas>
+        </div>
+    </body>
+
 </html>

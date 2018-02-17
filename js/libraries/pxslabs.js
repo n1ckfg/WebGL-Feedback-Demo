@@ -5,6 +5,7 @@ a fragment shader program and a billboard mesh. A similar technique is used in O
 Since I do a lot of my shader prototyping in Max
 it made sense to me to have a way to migrate the complex shader chains into webpages.
 */
+var gl;
 
 function pxSlab(vs,fs){
 	//the "start" method is borrowed from the OpenFrameworks implementation of texture processing
